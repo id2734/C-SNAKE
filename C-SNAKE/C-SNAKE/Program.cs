@@ -10,6 +10,15 @@ namespace C_SNAKE
     {
         static void Main(string[] args)
         {
+            Point P1 = new Point();
+
+            P1.x = 1;
+            P1.y = 3;
+            P1.sym = '#';
+            P1.DrawPoint();
+            Console.Read();
+
         }
+      
     }
 }
