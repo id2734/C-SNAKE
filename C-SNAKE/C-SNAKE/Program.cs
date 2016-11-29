@@ -10,12 +10,19 @@ namespace C_SNAKE
     {
         static void Main(string[] args)
         {
-            Point P1 = new Point();
+            Point P1 = new Point(7, 3, '#');
 
-            P1.x = 1;
-            P1.y = 3;
-            P1.sym = '#';
-            P1.DrawPoint();
+      
+            
+
+            List<Point> numList = new List<Point>();
+            numList.Add(P1);
+
+            foreach(Point i in numList)
+            {
+                i.DrawPoint();
+            }
+
             Console.Read();
 
         }
