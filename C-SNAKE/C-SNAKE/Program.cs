@@ -10,6 +10,13 @@ namespace C_SNAKE
     {
         static void Main(string[] args)
         {
+            int x1 = 5;
+            int y1 = 7;
+            char sym1 = '*';
+            Console.SetCursorPosition(x1, y1);
+            Console.WriteLine(sym1);
+            Console.Read();
+
         }
     }
 }
